@@ -3,5 +3,8 @@
         Dim btn As Button = sender
         btn.Text = "Did Something"
         Me.rtbMessages.Text = "Sent a message!"
+
+
+        Me.rtbMessages.Text += vbCrLf + "Another message!"
     End Sub
 End Class
